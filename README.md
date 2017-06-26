@@ -242,4 +242,13 @@ For drawing rectangle box around our detection
         }
     }
      ```
+----------------------------------------------------
+### You can also group Requests and Perform analysis
+----------------------------------------------------
+
+ ``` swift
+     handler.perform([self.textRectangleRequest,self.faceDetectionRequest,self.rectangleBoxRequest])
+   ```
+   
+   Here am performing text,face and rectangle box analysis on a single input
  
